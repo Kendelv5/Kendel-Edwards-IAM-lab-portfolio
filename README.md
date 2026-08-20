@@ -1,6 +1,6 @@
 # Identity and Access Management (IAM) Lab Portfolio
 
-Welcome to my IAM engineering and administration portfolio. This repository documents a series of hands-on homelabs designed to build, secure, and troubleshoot enterprise identity architectures using industry-leading cloud platforms like Okta and Microsoft Entra ID.
+Welcome to my IAM engineering and administration portfolio. This repository documents a series of hands-on homelabs designed to build, secure, and troubleshoot enterprise identity architectures using industry-leading cloud platforms like Okta and Microsoft Entra ID. I am a recent graduate of DeVry University's undergraduate program in cybersecurity. My passion for technology and security comes from life lessons between being hacked and watching family losing credentials and become victims of ransomware. I love information security and the professionals involved in keeping data protected.
 
 The goal of this portfolio is to bridge theoretical security concepts with practical implementation, focusing on Zero Trust principles, automated identity lifecycles, and secure federation.
 
@@ -22,7 +22,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **01** | [Automated Lifecycle Management](./01-Lifecycle-Management/) | Okta, Expression Language | Automated contractor provisioning and group assignment using custom attribute rules. |
 | **02** | [Adaptive MFA & Network Zones](./02-Adaptive-MFA/) | Okta OIE, Network Security | Enforced step-up authentication based on corporate network boundaries and device context. |
 | **03** | [SAML 2.0 Federation](./03-SAML-Federation/) | Okta IdP, SAML | Configured single sign-on (SSO) and attribute mapping between an identity provider and a service provider. |
-| **04** | [JML Lifecycle Automation](./02-JML-Lifecycle-Automation/) | Okta OIE, Lifecycle Workflows | Designed a complete Joiner-Mover-Leaver lifecycle workflow handling automated transitions, department shifts, and secure offboarding. |
+| **04** | [JML Lifecycle Automation](./04-JML-Lifecycle-Automation/) | Okta OIE, Lifecycle Workflows | Designed a complete Joiner-Mover-Leaver lifecycle workflow handling automated transitions, department shifts, and secure offboarding. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -42,7 +42,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 
 ### Lab 4: JML Lifecycle Automation (Joiner-Mover-Leaver)
 * **Challenge:** Ensuring seamless, secure permission updates when employees join, change roles internally, or leave the company without leaving orphaned accounts.
-* **Solution:** Configured attribute-driven group rules to handle the **Joiner** phase (automatic app assignment), **Mover** phase (dynamic department/title updates revoking old access and granting new apps), and **Leaver** phase (instant deactivation and suspension of active sessions).
+* **Solution:** Configured attribute-driven group rules to handle the **Joiner** phase (automatic app assignment), **Mover** phase (dynamic department/title updates, revoking old access and granting new apps), and **Leaver** phase (instant deactivation and suspension of active sessions).
 * **Key Takeaway:** Built an automated state machine logic via identity attributes to drastically reduce administrative overhead and mitigate insider threat windows.
 ---
 
