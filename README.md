@@ -1,6 +1,6 @@
 # Identity and Access Management (IAM) Lab Portfolio
 
-Welcome to my IAM engineering and administration portfolio. This repository documents a series of hands-on homelabs designed to build, secure, and troubleshoot enterprise identity architectures using industry-leading cloud platforms like Okta and Microsoft Entra ID. I am a recent graduate of DeVry University's undergraduate program in cybersecurity. My passion for technology and security comes from life lessons between being hacked and watching family losing credentials and become victims of ransomware. I love information security and the professionals involved in keeping data protected.
+Welcome to my IAM engineering and administration portfolio. This repository documents a series of hands-on homelabs designed to build, secure, and troubleshoot enterprise identity architectures using industry-leading cloud platforms like Okta and Microsoft Entra ID. I am a recent graduate of DeVry University's undergraduate cybersecurity program. My passion for technology and security comes from life lessons from being hacked and watching family losing credentials and become victims of ransomware. I love information security and the professionals who keep data protected.
 
 The goal of this portfolio is to bridge theoretical security concepts with practical implementation, focusing on Zero Trust principles, automated identity lifecycles, and secure federation.
 
