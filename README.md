@@ -21,7 +21,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | :---: | :--- | :--- | :--- |
 | **01** | [Automated Lifecycle Management](https://github.com/Kendelv5/.-01-Lifecycle-Management-) | Okta, Expression Language | Automated contractor provisioning and group assignment using custom attribute rules. |
 | **02** | [Adaptive MFA & Network Zones](./02-Adaptive-MFA/) | Okta OIE, Network Security | Enforced step-up authentication based on corporate network boundaries and device context. |
-| **03** | [SAML 2.0 Federation]([./03-SAML-Federation/](https://github.com/Kendelv5/Lab03-SAML-2.0-Federation/blob/main/README.md) | Okta IdP, SAML | Configured single sign-on (SSO) and attribute mapping between an identity provider and a service provider. |
+| **03** | [SAML 2.0 Federation](https://github.com/Kendelv5/Lab03-SAML-2.0-Federation/blob/main/README.md) | Okta IdP, SAML | Configured single sign-on (SSO) and attribute mapping between an identity provider and a service provider. |
 | **04A** | [On-Premises JML Automation](https://github.com/Kendelv5/04-JML-Lifecycle-Automation) | Active Directory, OUs, GPOs | Structured an on-premises enterprise JML framework utilizing Organizational Units, security groups, and manual offboarding controls. |
 | **04B** | [Cloud JML Lifecycle Automation](https://github.com/Kendelv5/04B-JML-Automation-OKTA) | Okta OIE, Lifecycle Workflows | Designed a complete cloud-native Joiner-Mover-Leaver lifecycle workflow handling automated transitions, department shifts, and secure offboarding. |
 ---
