@@ -25,7 +25,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **04A** | [On-Premises JML Automation](https://github.com/Kendelv5/04-JML-Lifecycle-Automation) | Active Directory, OUs, GPOs | Structured an on-premises enterprise JML framework utilizing Organizational Units, security groups, and manual offboarding controls. |
 | **04B** | [Cloud JML Lifecycle Automation](https://github.com/Kendelv5/04B-JML-Automation-OKTA) | Okta OIE, Lifecycle Workflows | Designed a complete cloud-native Joiner-Mover-Leaver lifecycle workflow handling automated transitions, department shifts, and secure offboarding. |
 | **05** | [Entra ID Conditional Access](./05-Entra-Conditional-Access/) | Microsoft Entra ID, CA Policies | Implemented Zero Trust named locations and risk-based conditional access policies to enforce MFA dynamically. |
-| **06** | [Identity Governance & Access Reviews](./06-Identity-Governance/) | Microsoft Entra ID, Governance | Configured recurring access review campaigns with automated remediation to mitigate privilege creep and ensure compliance. |
+| **06** | [Identity Governance & Access Reviews](https://github.com/Kendelv5/06-Access-Reviews) | Microsoft Entra ID, Governance | Configured recurring access review campaigns with automated remediation to mitigate privilege creep and ensure compliance. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
