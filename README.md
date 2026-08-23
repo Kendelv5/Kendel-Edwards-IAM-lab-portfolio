@@ -25,6 +25,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **04A** | [On-Premises JML Automation](https://github.com/Kendelv5/04-JML-Lifecycle-Automation) | Active Directory, OUs, GPOs | Structured an on-premises enterprise JML framework utilizing Organizational Units, security groups, and manual offboarding controls. |
 | **04B** | [Cloud JML Lifecycle Automation](https://github.com/Kendelv5/04B-JML-Automation-OKTA) | Okta OIE, Lifecycle Workflows | Designed a complete cloud-native Joiner-Mover-Leaver lifecycle workflow handling automated transitions, department shifts, and secure offboarding. |
 | **05** | [Entra ID Conditional Access](./05-Entra-Conditional-Access/) | Microsoft Entra ID, CA Policies | Implemented Zero Trust named locations and risk-based conditional access policies to enforce MFA dynamically. |
+| **06** | [Identity Governance & Access Reviews](./06-Identity-Governance/) | Microsoft Entra ID, Governance | Configured recurring access review campaigns with automated remediation to mitigate privilege creep and ensure compliance. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -42,10 +43,23 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 * **Challenge:** Balancing frictionless user experience with strict organizational security requirements.
 * **Solution:** Established IP-based Network Zones to separate trusted corporate environments from external spaces, applying sign-on policies that trigger step-up MFA only for out-of-band access or sensitive resources.
 
-### Lab 4: JML Lifecycle Automation (Joiner-Mover-Leaver)
+### Lab 4A: JML Lifecycle Automation (Joiner-Mover-Leaver)
 * **Challenge:** Ensuring seamless, secure permission updates when employees join, change roles internally, or leave the company without leaving orphaned accounts.
 * **Solution:** Configured attribute-driven group rules to handle the **Joiner** phase (automatic app assignment), **Mover** phase (dynamic department/title updates, revoking old access and granting new apps), and **Leaver** phase (instant deactivation and suspension of active sessions).
 * **Key Takeaway:** Built an automated state machine logic via identity attributes to drastically reduce administrative overhead and mitigate insider threat windows.
+
+### Lab 4B: On-Premises JML (Active Directory)
+* **Challenge:** Managing traditional corporate environments where employee transitions risk orphaned accounts and privilege creep without physical or structural segregation.
+* **Solution:** Designed an AD OU hierarchy (`Corp/Users/Active/` vs `Corp/Users/Terminated/`) and automated departmental group provisioning to control the Joiner-Mover-Leaver pipeline.
+* **Key Takeaway:** Gained foundational mastery of directory services, security scopes, and enterprise offboarding hygiene.
+
+### Lab 5: Microsoft Entra ID Conditional Access
+* **Challenge:** Replicating perimeter controls and risk management in a Microsoft cloud-centric environment.
+* **Solution:** Created Trusted Named Locations in Entra ID and built Conditional Access policies to evaluate user location signals in real time, forcing step-up MFA when users log in from untrusted networks.
+
+### Lab 6: Identity Governance & Access Reviews
+* **Challenge:** Preventing privilege creep and maintaining regulatory compliance over static, long-term security group memberships.
+* **Solution:** Implemented recurring quarterly Access Review campaigns in Entra ID, assigning management attestation responsibilities and enabling auto-apply remediation to instantly revoke access upon denial or non-response.
 ---
 
 ## 📈 Future Roadmap
