@@ -26,6 +26,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **04B** | [Cloud JML Lifecycle Automation](https://github.com/Kendelv5/04B-JML-Automation-OKTA) | Okta OIE, Lifecycle Workflows | Designed a complete cloud-native Joiner-Mover-Leaver lifecycle workflow handling automated transitions, department shifts, and secure offboarding. |
 | **05** | [Entra ID Conditional Access](./05-Entra-Conditional-Access/) | Microsoft Entra ID, CA Policies | Implemented Zero Trust named locations and risk-based conditional access policies to enforce MFA dynamically. |
 | **06** | [Identity Governance & Access Reviews](https://github.com/Kendelv5/06-Access-Reviews) | Microsoft Entra ID, Governance | Configured recurring access review campaigns with automated remediation to mitigate privilege creep and ensure compliance. |
+| **07** | [Privileged Identity Management](https://github.com/Kendelv5/07-Privileged-Identity-Management) | Microsoft Entra ID, PIM | Eliminated standing admin rights by configuring Just-in-Time (JIT) role eligibility, approval workflows, and activation justifications. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -60,6 +61,11 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 ### Lab 6: Identity Governance & Access Reviews
 * **Challenge:** Preventing privilege creep and maintaining regulatory compliance over static, long-term security group memberships.
 * **Solution:** Implemented recurring quarterly Access Review campaigns in Entra ID, assigning management attestation responsibilities and enabling auto-apply remediation to instantly revoke access upon denial or non-response.
+
+### Lab 7: Privileged Identity Management (PIM)
+* **Challenge:** Minimizing the exposure window of privileged accounts by eliminating permanent standing administrative permissions.
+* **Solution:** Configured Entra ID PIM role settings to enforce Just-in-Time (JIT) access, requiring explicit activation requests, business justifications, time-bounded sessions, and approval workflows.
+* **Key Takeaway:** Mastered zero-standing privilege enforcement aligning directly with SC-300 enterprise security governance objectives.
 ---
 
 ## 📈 Future Roadmap
