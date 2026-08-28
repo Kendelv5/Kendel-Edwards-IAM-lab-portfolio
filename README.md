@@ -27,6 +27,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **05** | [Entra ID Conditional Access](./05-Entra-Conditional-Access/) | Microsoft Entra ID, CA Policies | Implemented Zero Trust named locations and risk-based conditional access policies to enforce MFA dynamically. |
 | **06** | [Identity Governance & Access Reviews](https://github.com/Kendelv5/06-Access-Reviews) | Microsoft Entra ID, Governance | Configured recurring access review campaigns with automated remediation to mitigate privilege creep and ensure compliance. |
 | **07** | [Privileged Identity Management](https://github.com/Kendelv5/07-Privileged-Identity-Management) | Microsoft Entra ID, PIM | Eliminated standing admin rights by configuring Just-in-Time (JIT) role eligibility, approval workflows, and activation justifications. |
+| **08** | [Identity Protection & Risk Policies](https://github.com/Kendelv5/08-Identity-Protection-Risk-Policies) | Microsoft Entra ID, Risk Engine | Implemented behavior-driven Conditional Access risk policies to automatically trigger remediation and secure compromised accounts. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -66,12 +67,10 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 * **Challenge:** Minimizing the exposure window of privileged accounts by eliminating permanent standing administrative permissions.
 * **Solution:** Configured Entra ID PIM role settings to enforce Just-in-Time (JIT) access, requiring explicit activation requests, business justifications, time-bounded sessions, and approval workflows.
 * **Key Takeaway:** Mastered zero-standing privilege enforcement aligning directly with SC-300 enterprise security governance objectives.
----
 
-## 📈 Future Roadmap
-* [ ] Integrate Microsoft Entra ID Conditional Access policies.
-* [ ] Implement Privileged Identity Management (PIM) workflows.
-* [ ] Automate infrastructure deployment of these labs using Terraform.
-
+### Lab 8: Identity Protection & Risk-Based Policies
+* **Challenge:** Protecting corporate assets from real-time identity threats like leaked credentials and anomalous behavioral sign-ins.
+* **Solution:** Built risk-driven Conditional Access policies evaluating high user-risk signals to automatically enforce risk remediation and password resets.
+* **Key Takeaway:** Gained expertise in deploying self-healing security controls driven by cloud telemetry and machine learning risk engines.
 ---
 *Connect with me on [LinkedIn](https://linkedin.com) or reach out via email for inquiries.*
