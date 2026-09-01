@@ -28,6 +28,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **06** | [Identity Governance & Access Reviews](https://github.com/Kendelv5/06-Access-Reviews) | Microsoft Entra ID, Governance | Configured recurring access review campaigns with automated remediation to mitigate privilege creep and ensure compliance. |
 | **07** | [Privileged Identity Management](https://github.com/Kendelv5/07-Privileged-Identity-Management) | Microsoft Entra ID, PIM | Eliminated standing admin rights by configuring Just-in-Time (JIT) role eligibility, approval workflows, and activation justifications. |
 | **08** | [Identity Protection & Risk Policies](https://github.com/Kendelv5/08-Identity-Protection-Risk-Policies) | Microsoft Entra ID, Risk Engine | Implemented behavior-driven Conditional Access risk policies to automatically trigger remediation and secure compromised accounts. |
+| **09** | [App Registrations & OIDC](./09-App-Registrations-OIDC/) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -72,5 +73,10 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 * **Challenge:** Protecting corporate assets from real-time identity threats like leaked credentials and anomalous behavioral sign-ins.
 * **Solution:** Built risk-driven Conditional Access policies evaluating high user-risk signals to automatically enforce risk remediation and password resets.
 * **Key Takeaway:** Gained expertise in deploying self-healing security controls driven by cloud telemetry and machine learning risk engines.
+
+### Lab 9: App Registrations & OpenID Connect (OIDC)
+* **Challenge:** Integrating modern applications and APIs that rely on token-based OAuth/OIDC authorization instead of traditional user-facing federation protocols.
+* **Solution:** Registered a custom enterprise application object (`OIDC-Test-Client-App`), configured implicit token grants, and provisioned confidential client credentials (`OIDC-Lab-Secret`).
+* **Key Takeaway:** Expanded administrative scope from user directory controls into application-level identity architecture and developer token workflows.
 ---
-*Connect with me on [LinkedIn](https://linkedin.com) or reach out via email for inquiries.*
+*Connect with me on [LinkedIn](https://www.linkedin.com/in/kendel-edwards-abb26aa7/) or reach out via email for inquiries.*
