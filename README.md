@@ -31,7 +31,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **09** | [App Registrations & OIDC](https://github.com/Kendelv5/09-App-Registrations-OIDC) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
 | **10** | [Entra ID Lifecycle Workflows](https://github.com/Kendelv5/10-Lifecycle-Workflows) | Microsoft Entra ID, Lifecycle Governance | Configured automated, cloud-native orchestration engines to execute scheduled offboarding tasks, session revocation, and account disabling. |
 ---
-https://github.com/Kendelv5/10-Lifecycle-Workflows
+
 ## 🚀 Lab Architecture & Implementation Highlights
 
 ### Lab 1: Lifecycle Management & Group Rules
