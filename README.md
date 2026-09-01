@@ -29,8 +29,9 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **07** | [Privileged Identity Management](https://github.com/Kendelv5/07-Privileged-Identity-Management) | Microsoft Entra ID, PIM | Eliminated standing admin rights by configuring Just-in-Time (JIT) role eligibility, approval workflows, and activation justifications. |
 | **08** | [Identity Protection & Risk Policies](https://github.com/Kendelv5/08-Identity-Protection-Risk-Policies) | Microsoft Entra ID, Risk Engine | Implemented behavior-driven Conditional Access risk policies to automatically trigger remediation and secure compromised accounts. |
 | **09** | [App Registrations & OIDC](https://github.com/Kendelv5/09-App-Registrations-OIDC) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
+| **10** | [Entra ID Lifecycle Workflows](https://github.com/Kendelv5/10-Lifecycle-Workflows) | Microsoft Entra ID, Lifecycle Governance | Configured automated, cloud-native orchestration engines to execute scheduled offboarding tasks, session revocation, and account disabling. |
 ---
-
+https://github.com/Kendelv5/10-Lifecycle-Workflows
 ## 🚀 Lab Architecture & Implementation Highlights
 
 ### Lab 1: Lifecycle Management & Group Rules
@@ -78,5 +79,10 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 * **Challenge:** Integrating modern applications and APIs that rely on token-based OAuth/OIDC authorization instead of traditional user-facing federation protocols.
 * **Solution:** Registered a custom enterprise application object (`OIDC-Test-Client-App`), configured implicit token grants, and provisioned confidential client credentials (`OIDC-Lab-Secret`).
 * **Key Takeaway:** Expanded administrative scope from user directory controls into application-level identity architecture and developer token workflows.
+
+### Lab 10: Microsoft Entra ID Lifecycle Workflows
+* **Challenge:** Mitigating insider threats and administrative oversight during employee terminations and offboarding cycles.
+* **Solution:** Deployed native Microsoft Entra ID Lifecycle Workflows (`Automated-Leaver-Offboarding`) to automate scheduled task execution, account deactivation, and session revocation.
+* **Key Takeaway:** Mastered automated cloud orchestration to eliminate manual day-two administrative overhead and close security gaps left by delayed offboarding.
 ---
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/kendel-edwards-abb26aa7/) or reach out via email for inquiries.*
