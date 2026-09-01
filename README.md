@@ -28,7 +28,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **06** | [Identity Governance & Access Reviews](https://github.com/Kendelv5/06-Access-Reviews) | Microsoft Entra ID, Governance | Configured recurring access review campaigns with automated remediation to mitigate privilege creep and ensure compliance. |
 | **07** | [Privileged Identity Management](https://github.com/Kendelv5/07-Privileged-Identity-Management) | Microsoft Entra ID, PIM | Eliminated standing admin rights by configuring Just-in-Time (JIT) role eligibility, approval workflows, and activation justifications. |
 | **08** | [Identity Protection & Risk Policies](https://github.com/Kendelv5/08-Identity-Protection-Risk-Policies) | Microsoft Entra ID, Risk Engine | Implemented behavior-driven Conditional Access risk policies to automatically trigger remediation and secure compromised accounts. |
-| **09** | [App Registrations & OIDC](./09-App-Registrations-OIDC/) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
+| **09** | [App Registrations & OIDC](https://github.com/Kendelv5/09-App-Registrations-OIDC) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
